@@ -123,7 +123,10 @@ header .logo{
 	}
 }
 @media(max-width: 375px){
-
+	.landing-content{
+		justify-content: center;
+		align-content: center;
+	}
 	header .logo{
 		flex-direction: row;
 		display: flex;
@@ -144,16 +147,27 @@ header .logo{
 	}
 	.landing-content img{
 		height:auto;
-		max-width: 300px;
+		max-width: 350px;
 		padding:0px 20px 0px 20px;
 	}
 	.landing-content .content h2{
-		font-size: 1rem;
+		font-size: 1.5em;
 		font-weight: 600;
 	}
 	.landing-content .content p{
 		font-size: 1em;
 		text-align: center;
 	}
-
+	.landing-content .btn{
+		padding:8px 60px 8px 60px;
+		margin-bottom: 10px;
+	}
+	#icons{
+		margin-top: 10px;
+		justify-content: center;
+	}
+	.content > div{
+		display: grid;
+		justify-content: center;
+	}
 }
