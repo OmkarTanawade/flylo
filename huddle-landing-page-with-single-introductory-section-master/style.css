@@ -1,4 +1,6 @@
-@import();
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
 
 
 :root{
@@ -15,7 +17,8 @@
 }
 body{
 	background: var(--Violet);
-	font-family: sans-serif;
+	font-family:'Open Sans', sans-serif;
+	font-weight: 400;
 }
 header{
 	padding: 20px 80px;
@@ -29,11 +32,6 @@ header{
 
 header .logo{
 	margin-bottom: 20px;
-}
-h1,h2,h3,h4,h5,h6{
-	font-size: 3em;
-	font-weight: 500;
-	font-family: inherit;
 }
 
 .landing-content{
@@ -53,6 +51,9 @@ h1,h2,h3,h4,h5,h6{
 }
 .landing-content .content h2{
 	margin-bottom: 20px;
+	font-size: 2.3em;
+	font-weight: 600;
+	font-family: 'Poppins',sans-serif;
 }
 .landing-content .content p{
 	max-width: 450px;
